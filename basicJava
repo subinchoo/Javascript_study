@@ -1,0 +1,23 @@
+//1. variable - changable
+
+let age = 27; //naming
+
+age = 30;
+
+//2. constant - unchangable
+
+const birth = "1999.05.14";
+
+//3. variable naming rule
+//3-1. cannot use sign except $, _
+let $_name;
+
+//3-2. cannot start with any number
+let name1;
+
+//3-3. cannot use statement
+
+//4. naming guide
+//kindly namiing the variables to make users understand the purpose.
+let salesCount = 1;
+let refundCount = 1;

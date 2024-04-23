@@ -1,0 +1,46 @@
+// 1. if
+
+let num = 9;
+
+if (num >= 10) {
+  console.log("num is over than 10");
+  console.log("true");
+} else if (num >= 5) {
+  console.log("num is over than 5");
+} else if (num >= 3) {
+  console.log("num is over than 3");
+} else {
+  console.log("false");
+}
+
+// 2. switch
+//    for multiple statement than 'if' statment
+//    put "break" at the end of each case.
+
+let animal = "owl";
+
+switch (animal) {
+  case "cat": {
+    console.log("cat");
+    break;
+  }
+  case "dog": {
+    console.log("dog");
+    break;
+  }
+  case "bear": {
+    console.log("bear");
+    break;
+  }
+  case "snake": {
+    console.log("snake");
+    break;
+  }
+  case "tiger": {
+    console.log("tiger");
+    break;
+  }
+  default: {
+    console.log("none");
+  }
+}

@@ -1,0 +1,57 @@
+//Type Casting
+
+// 1. implicit operator --> automatically casting in javascript
+
+let num = 10;
+let str = "20";
+
+const result = num + str;
+// console.log(result); //1020
+//num -> casting into string type
+
+// 2. explicit operator --> by developer
+
+let str1 = "10";
+let strToNum1 = Number(str1); // Number --> function
+// console.log(10 + strToNum1);
+
+let str2 = "10개";
+let strToNum2 = parseInt(str2);
+// console.log(strToNum2);
+
+// --> number --> string
+let num1 = 20;
+let numToStr1 = String(num1);
+
+// console.log("it is" + numToStr1);
+
+// 3. addition assignment operator
+
+let num7 = 10;
+num7 -= 20; //+= /= %=...
+
+// 4. addition operator
+let num8 = 10;
+num8++; // +1 is added after this line
+++num8; // +1 is added in this line
+
+// console.log(num8);
+
+// 5. logical operator
+let or = true || false;
+let and = true && false;
+let not = !true;
+
+// console.log(or, and, not);
+
+// 6. visual basic
+let comp1 = 1 == 2;
+let comp1_1 = 1 === "1"; // prefer to use triple ===
+let comp2 = 1 !== 2;
+
+let comp3 = 2 > 1;
+let comp4 = 2 < 1;
+
+let comp5 = 2 >= 3;
+let comp6 = 2 <= 2;
+console.log(comp1, comp1_1, comp2, comp3, comp4, comp5, comp6);

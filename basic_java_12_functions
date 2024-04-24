@@ -1,0 +1,26 @@
+// 1. function declaration
+function funcA() {
+  console.log("funcA");
+}
+
+let varA = funcA;
+varA();
+
+let varB = function funcB() {
+  console.log("funcB");
+};
+
+varB();
+
+// --> function
+// no function declaration, only ()=>{}
+
+// let varC = () => {
+//   return 1;
+// };
+
+// let varC = () => 1;
+
+let varC = (value) => value + 1;
+
+console.log(varC(10));

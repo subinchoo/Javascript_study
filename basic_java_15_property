@@ -1,0 +1,51 @@
+// 1. create object
+let obj1 = new Object(); //creator
+let obj2 = {}; // object literal (normally use this)
+
+// 2. object property
+// key : "value"
+// non limit of property numbers
+let person = {
+  name: "subin",
+  age: "25",
+  hobby: "reading",
+  job: "it developer",
+  extra: {},
+  10: 20,
+  "like cat": true,
+};
+
+// 3. handling object property
+// 3.1. access specific property
+
+// 3.1.1 .
+let name = person.name;
+console.log(name);
+
+// 3.1.2 []
+let age = person["age"];
+console.log(age);
+
+let property = "hobby";
+let hobby = person[property];
+console.log(hobby);
+
+// 3.2 add new property
+person.job = "fe developer";
+person["favoritefood"] = "bagel";
+
+// 3.3 edit property
+person.job = "educator";
+person["favoritefood"] = "chocolate";
+
+// 3.4 delete property
+delete person.job;
+delete person["favoritefood"];
+
+console.log(person);
+
+// 3.5 check property
+let result1 = "name" in person;
+console.log(result1);
+let result2 = "cat" in person;
+console.log(result2);

@@ -1,0 +1,47 @@
+// 6 types of methods
+
+// 1. push
+// add new parameter
+
+let arr1 = [1, 2, 3];
+const newLength = arr1.push(4, 5, 6, 7);
+// arr1.push(4, 5, 6, 7);
+
+console.log(arr1);
+
+// 2. pop
+// remove the most last parameter, and return
+let arr2 = [1, 2, 3];
+const poppedItem = arr2.pop();
+
+console.log(poppedItem);
+
+// 3. shift
+// remove the most first parameter, and return
+let arr3 = [1, 2, 3];
+const shiftedItem = arr3.shift();
+console.log(shiftedItem, arr3);
+
+// 4. unshift
+// add parameter in the most first index
+let arr4 = [1, 2, 3];
+const newLength2 = arr4.unshift(0);
+console.log(newLength2, arr4);
+
+// 5. slice
+// like cissor, cut specific range in array and return new array
+
+let arr5 = [1, 2, 3, 4, 5];
+let sliced = arr5.slice(2, 5); //end of the index => index+1
+let sliced2 = arr5.slice(2);
+let sliced3 = arr5.slice(-1); //slice one parameter from the back
+console.log(sliced);
+console.log(arr5);
+
+// 6. concat
+// attach different two array and return new array
+
+let arr6 = [1, 2];
+let arr7 = [3, 4];
+let concatedArr = arr6.concat(arr7);
+console.log(concatedArr);

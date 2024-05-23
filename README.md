@@ -1,4 +1,4 @@
-# emotion_memo
+# JavaScript basic, advanced
 developing emotion memo application with React
 
 + Basic of JavaScript

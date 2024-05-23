@@ -1,5 +1,5 @@
 # JavaScript basic, advanced
-developing emotion memo application with React
+learning javascirpt and node.js before develop application
 
 + Basic of JavaScript
 + Basic of Node.js
